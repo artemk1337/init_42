@@ -1,0 +1,9 @@
+echo "# I don't have permission to rewrite file hosts.
+echo '46.19.122.85         intra.42.fr' >> /etc/hosts
+# It should look like:
+192.168.50.10        cdn.42.fr
+192.168.50.10        cdn.intra.42.fr
+127.0.0.1       localhost
+255.255.255.255 broadcasthost
+::1             localhost
+46.19.122.85         intra.42.fr"

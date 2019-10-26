@@ -1,0 +1,12 @@
+#!/bin/sh
+# https://www.cyberciti.biz/faq/howto-restart-ssh/
+echo "On Linux:
+		\033[1;41;4mservice ssh status\033[0m
+		\033[1;41;4metc/init.d/ssh status\033[0m
+		\033[1;41;4mudo service ssh status\033[0m
+If you are using Debian/Ubuntu/Mint Linux with systemd:\033[0m
+		\033[1;41;4msudo systemctl status ssh\033[0m
+		\033[1;41;4msystemctl status ssh\033[0m"
+echo "On Mac:'
+		\033[1;41;4msudo service ssh status\033[0m"
+sudo service ssh status

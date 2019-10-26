@@ -1,0 +1,3 @@
+#!/bin/sh
+echo '& - in background
+\033[1;41;4mtail -f /var/log/syslog &\033[0m'

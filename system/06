@@ -1,0 +1,12 @@
+#!/bin/sh
+# https://www.cyberciti.biz/faq/howto-restart-ssh/
+echo "On Linux:
+		\033[1;41;4mservice ssh restart\033[0m
+		\033[1;41;4metc/init.d/ssh restart\033[0m
+		\033[1;41;4mudo service ssh restart\033[0m
+If you are using Debian/Ubuntu/Mint Linux with systemd:\033[0m
+		\033[1;41;4msudo systemctl restart ssh\033[0m
+		\033[1;41;4msystemctl restart ssh\033[0m"
+echo "On Mac:'
+		\033[1;41;4msudo service ssh restart\033[0m"
+sudo service ssh restart

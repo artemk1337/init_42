@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "'su' to get permission"
+hostname test

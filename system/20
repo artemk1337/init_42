@@ -1,0 +1,2 @@
+#!/bin/sh
+echo "\033[1;41;4mawk -F ':' '{print \$1}' /etc/passwd\033[0m"

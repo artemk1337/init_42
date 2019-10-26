@@ -1,0 +1,6 @@
+#!/bin/sh
+echo "If input 'ssh-keygen' it return:
+\033[1;41;4mGenerating public/private rsa key pair.
+Enter file in which to save the key (/Users/cchadwic/.ssh/id_rsa):\033[0m
+Directory to file with keys:
+\033[1;41;4mUsers/cchadwic/.ssh/id_rsa\033[0m"

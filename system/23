@@ -1,0 +1,7 @@
+#!/bin/sh
+echo 'Graphical:
+\033[1;41;4mexit\033[0m
+Then put your \033[1;41;4mlogin\033[0m and \033[1;41;4mpassword\033[0m
+SSH:
+\033[1;41;4mssh <username>@localhost\033[0m'
+

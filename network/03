@@ -1,0 +1,5 @@
+#!/bin/sh
+# By default, en0 and en1 are your physical network connections (wired and wireless LAN). 
+# lo0 is the loopback interface. 
+# fw0 is the IP over Firewire interface; and vmnet interfaces are installed by VMware for network communication with virtual machines.
+ifconfig en1 | grep ether | awk '{print $2}'

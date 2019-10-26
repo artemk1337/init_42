@@ -1,0 +1,4 @@
+#!/bin/sh
+echo 'man df
+\033[1;41;4mdf- H\033[0m'
+df -H

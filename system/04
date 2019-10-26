@@ -1,0 +1,4 @@
+#!/bin/sh
+# Last reboot:
+echo "\033[1;41;4mwho -b\033[0m"
+who -b

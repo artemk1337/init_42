@@ -1,0 +1,6 @@
+#!/bin/sh
+echo 'For Debian:
+\033[1;41;4msystemctl stop ssh\033[0m
+For Mac:
+\033[1;41;4msudo systemctl stop ssh\033[0m'
+

@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "On debian file in this directory:
+\033[1;41;4m/etc/hostname\033[0m
+Then modify this file and reboot system"

@@ -1,0 +1,4 @@
+# ifconfig en0 | grep "inet " | awk '{print $2}'
+# host 192.168.23.113
+# Domain name:
+mi-r1.21-school.ru.

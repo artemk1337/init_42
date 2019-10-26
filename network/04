@@ -1,0 +1,4 @@
+#!/bin/sh
+route -n get default | grep gateway | awk '{print $2}'
+# Similar:
+# netstat -rn | grep en0 | grep default | awk '{print $2}'

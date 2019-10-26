@@ -1,0 +1,3 @@
+#!/bin/sh
+echo '\033[1;41;4mssh <username>@127.0.0.1\033[0m'
+ssh cchadwic@127.0.0.1

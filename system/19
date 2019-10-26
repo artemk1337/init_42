@@ -1,0 +1,2 @@
+#!/bin/sh
+echo "\033[1;41;4msystemctl list-unit-files --type=service | grep "enabled" | awk -F'.service' '{print $1}'\033[0m"
